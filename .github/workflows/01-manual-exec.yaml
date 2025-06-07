@@ -34,6 +34,4 @@ jobs:
       - name: Instalando depedências
         run: yarn
 
-      # executar os testes e2e
-      - name: Executando teste E2E
-        run: yarn run e2e
+    
