@@ -34,9 +34,9 @@ jobs:
       - name: Instalando depedências
         run: yarn
 
-      # instalação do Playwright
-      - name: Instalando Playwright
-        run: yarn playwright install
+      //# instalação do Playwright
+      //- name: Instalando Playwright
+     //   run: yarn playwright install
 
       # executar os testes e2e
       - name: Executando teste E2E
